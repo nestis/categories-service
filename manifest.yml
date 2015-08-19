@@ -1,0 +1,7 @@
+---
+applications:
+- name: categories-service
+  instances: 1
+  memory: 512M
+  host: nestis-categories-services
+  path: build/libs/categories-service-1.0.0-SNAPSHOT.jar
